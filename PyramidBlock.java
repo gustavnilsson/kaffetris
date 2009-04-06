@@ -1,6 +1,7 @@
 import se.lth.cs.pt.dots.*;
 
 /*
+* The block: 
 *     X
 *   X X X
 */
