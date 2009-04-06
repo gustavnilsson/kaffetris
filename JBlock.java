@@ -1,5 +1,12 @@
 import se.lth.cs.pt.dots.*;
 
+/*
+ * The block:
+ *    X
+ *    X
+ *   XX
+ */
+
 class JBlock extends Block {
 
     public JBlock (TetrisWindow w) {
