@@ -1,6 +1,8 @@
 import se.lth.cs.pt.dots.events.DotWindow;
 import se.lth.cs.pt.dots.events.GameEvent;
 
+/* YEP */
+
 abstract class Game {
 
     protected TetrisWindow w;
