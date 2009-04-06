@@ -1,5 +1,10 @@
 import se.lth.cs.pt.dots.*;
 
+/*
+*     X
+*   X X X
+*/
+
 class PyramidBlock extends Block {
 
     public PyramidBlock (TetrisWindow w) {
