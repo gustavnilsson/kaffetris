@@ -62,30 +62,9 @@ class TetrisGame extends Game {
     public void tick () {
 	if(! b.moveDown()) {
 	    newBlock();
-	    clearFullRows();
 	}
 
     }
-
-    public void clearFullRows () {
-	for(int i = 28; i > 0; i--) {
-	    if(rowFull(i)) {
-		for (int j = 1; j < 9; j++) {
-		    w.resetDot(j, i);
-		}
-	    }
-	}
-	
-    }
-
-    public boolean rowFull(int row) {
-	for (int i = 2; i < 9; i++) {
-	if(w.dotFree(i, row)) {
-	    return false;
-	}}
-	return true;
-    }
-
 
 
 }
